@@ -1,0 +1,4 @@
+opencv_python==4.7.0.68
+reportlab==3.6.12
+streamlit==1.17.0
+yolov5==7.0.8
