@@ -13,7 +13,7 @@ import tempfile
 def detectPolyp(path):
     model = yolov5.load('model.pt')
 
-    # set model parameters
+    #set model parameters
     model.conf = 0.25  # NMS confidence threshold
     model.iou = 0.45  # NMS IoU threshold
     model.agnostic = False  # NMS class-agnostic
